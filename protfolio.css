@@ -1,0 +1,228 @@
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+  
+}
+.container{
+    position:relative;
+    height:650px;  
+   
+}
+.nav-bar{
+    position:absolute;
+    height:70px;
+    width:100%;
+    position: fixed;
+    background-color: orange;
+    z-index:2;
+    display: flex; 
+}
+.container .name{
+    position:absolute;
+    margin-left: 20px;
+    margin-top: 270px;
+    color: white;
+    font-size: 50px;
+    font-family: Georgia;
+    z-index:1;
+}
+.container .name-desc{
+    position:absolute;
+    margin-left: 25px;
+    margin-top: 340px;
+    font-size:40px;
+    z-index:1;
+    color:orange;
+}
+.img{
+    position:absolute;
+    z-index: -1;
+}
+
+.nav-logo{
+    padding:15px;
+    color:white;
+  
+
+}
+.nav-items ul {
+      color:white;
+      display:flex;
+      margin-left:550px;
+      margin-top:10px;
+  
+}
+.nav-items ul li{
+    list-style-type:none;
+    margin-left:10px;
+    padding:15px;
+    cursor:pointer;
+   
+    
+
+}
+.nav-items ul li:hover{
+  
+    border-bottom:4px solid white;
+
+}
+.about{
+    
+    height:500px;
+    margin:20px;
+    margin-left:150px;
+    width:80%;
+    margin-top:50px;
+
+}
+.about .about-heading{
+    font-family:Georgia;
+    border-bottom: 5px solid orange;
+    font-size:50px;
+}
+.about-description{
+    margin:10px;
+    font-size:20px;
+    font-family:Georgia;
+    margin-top:20px;
+}
+.about-details{
+   
+    height:350px;
+    display: flex;
+}
+.about-image{
+   
+    height:330px;
+    width:40%;
+      
+
+}
+.about-info{
+
+    height:330px;
+    width: 80%;
+    margin-left:50px;  
+    margin-top:50px; 
+}
+.skills{
+   
+    height:550px; 
+    margin:50px;
+   font-family:Georgia;
+   
+}
+.skills-heading{
+       border-bottom: 5px solid orange;
+       width:8%;
+       margin-left:80px;
+      
+}
+.skills-description{
+
+    height:480px;
+    display:flex;
+    margin-top:20px;
+    flex-wrap: wrap;
+    width:90%;
+    margin-left:60px;
+}
+.each-skill{
+
+    width:330px;
+    height:200px;
+    margin:20px;
+
+}
+
+.each-skill :hover{
+box-shadow: 10px 10px 10px 10px orange;
+}
+.resume-section{
+    height:200px;
+    background-color:orange;
+    width:100%;
+    margin-top:30px;
+}
+.resume-section button{
+    width:150px;
+    height:50px;
+    font-size:20px;
+    margin-left:580px;
+    margin-top:30px;
+    border-radius: 5px;
+    border:2px solid orange;
+    cursor:pointer;
+
+}
+.resume-section button:hover{
+    border:2px solid orangered;
+    background-color: orangered;
+    color:white;
+}
+.project-section{
+ 
+    height:450px;
+    margin-top:50px;
+}
+.project{
+   
+    width:80%;
+    height:380px;
+    margin-left: 150px;
+    display: flex;
+  
+}
+.each-project{
+   
+    width:250px;
+    height:300px;
+    margin-top:20px;
+    margin-left: 70px;
+}
+.contact-section{
+  
+    height:300px;
+    width:700px;
+    background-color: orange;
+    margin-left:300px;
+    margin-top:50px;
+}
+
+
+input[type="text"]{
+font-weight: 900;
+margin-top: 30px;
+margin-left:30px;
+width:300px;
+height:40px;
+border-radius: 5px;
+color:black;
+border:2px solid orange;
+padding:5px;
+}
+.contact-button{
+width:150px;
+height:50px;
+color:black;
+background-color:white;
+font-size:16px;
+border-radius: 5px;
+cursor: pointer;
+font-family:Georgia;
+margin-top:35px;
+margin-left:270px;
+border:2px solid orange;
+}
+.contact-button:hover{
+    border:2px solid orangered;
+background-color: orangered;
+color:white;
+}
+ul  a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
